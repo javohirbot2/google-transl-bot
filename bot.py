@@ -4,7 +4,7 @@ from googletrans import Translator
 updater = Updater('5265168259:AAGZgscvx4R7Ohgq5KLwAC_QPieusvV19q4',use_context = True )
 
 def start(updater,context):
- updater.message.reply_html("👋🏻Assalomu alaykum <b>{}!</b>\n \n<b>Ushbu bot orqali matnlarni eng-uzb\n tarzida tarjima qilishingiz\n mumkin bo'ladi. Botga matn\n yuboring</b>".
+ updater.message.reply_html("👋🏻Assalomu alaykum <b>{}!</b>\n \n<b>Ushbu bot orqali matnlarni\n eng-uzb tarzida tarjima\n qilishingiz mumkin bo'ladi.\n Botga matn yuboring</b>".
                            format(user.first_name))
 format(user.first_name))
  
